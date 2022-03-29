@@ -1,4 +1,4 @@
-@media (min-width:375px) and (max-width:412px)
+@media screen and (max-width:549px)
 {
 .flex{
     display: flex ;text-align: center;flex-flow: column wrap;position: relative;width: auto;height: 33%;line-height: 40px;row-gap: 50px;
@@ -11,5 +11,21 @@
 }
 .backicon{width: 50px;height: 50px;
 
+}
+}
+
+@media only screen and (min-width:550px)    
+{
+.flex{
+    display: flex ;text-align: center;flex-flow: column wrap;position: relative;width: auto;height: 33%;line-height: 40px;row-gap: 50px;
+}
+.line{
+    width:200px; height:1px;display: inline-block;
+}
+.box{text-align: center;line-height: 30px;margin-left: 500px;
+    width: 300px;height: 300px;border:2px solid red;border-radius: 5px;box-shadow: 7px 7px 2px rgb(218, 222, 226);font-size: 25px;
+}
+.plusicon{
+    margin-top: 100px;position: absolute;height: 50px;width: 50px;
 }
 }
