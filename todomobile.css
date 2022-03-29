@@ -1,7 +1,7 @@
-@media (min-width:375px) and (max-width:412px)
-{
-
-.container{
+@media screen and (max-width:549px)
+{.big{display: none;}
+.small{display: absolute;}
+.container1{
     display: flex;flex-flow: column;margin-top:100px;
     row-gap: 7px;
 }
@@ -14,5 +14,25 @@
     color: pink;text-decoration: none;
 }
 .addlist{width: 30px;height: 30px; color: pink;position:relative;margin-left: 30px;
+}
+}
+
+@media only screen and (min-width:550px)
+ { .small{display: none;}
+.big{display: absolute;}
+.head2{
+    margin:49px 0px 0px 298px;position:absolute;top: 100px;
+}
+.container2{
+    display: flex;columns: auto auto auto;margin-top: 200px;margin-left: 300px;
+    column-gap: 50px;
+}
+.card2{padding: 10px;text-align: center;
+    width: 150px;
+    height: 200px;
+    border:2px solid red;border-radius: 10px;box-shadow: 5px 5px 2px rgb(218, 222, 226);
+}
+.addlist2{position: absolute;
+    margin: -50px 0px 0px 800px;
 }
 }
