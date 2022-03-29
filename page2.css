@@ -1,4 +1,4 @@
-@media (min-width:375px) and (max-width:412px)
+@media screen and (max-width:549px)
 {
 .container{
     display: flex;flex-flow: column;margin-top:100px;
@@ -23,4 +23,33 @@
 .bgpage{
     filter: blur(6px);
 }
+}
+@media only screen and (min-width:550px) {
+    .head{
+        margin:49px 0px 0px 298px;position:absolute;top: -110px;
+    }
+    .container{
+        display: flex;columns: auto auto auto;margin-top: 200px;margin-left: 300px;
+        column-gap: 50px;
+    }
+    .card{padding: 10px;text-align: center;
+        width: 150px;
+        height: 200px;
+        border:2px solid red;border-radius: 10px;box-shadow: 5px 5px 2px rgb(218, 222, 226);
+    }
+    .addlist{position: absolute;
+        margin: -50px 0px 0px 800px;
+    }
+    .flex{z-index: 1;position: absolute;left: 300px;margin-top: -200px;
+        display: flex ;text-align: center;flex-flow: column;width: 700px;height: 33%;line-height: 40px;row-gap: 50px;
+    }
+    .line{
+        width:200px; height:1px;display: inline-block;
+    }
+    .box{text-align: center;line-height: 50px;margin-left: 250px;
+        width: 300px;height: 500px;border:2px solid red;border-radius: 5px;box-shadow: 7px 7px 2px rgb(218, 222, 226);font-size: 25px;
+    }
+    .bgpage{
+        filter: blur(6px);
+    }
 }
